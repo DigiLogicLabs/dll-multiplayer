@@ -46,3 +46,5 @@ First public release. Standalone `BuildPlugin` passes (2026-10-19, UE 5.7, Win64
 - Docs: README, `NOTICE` and the `.uplugin` `CreatedByURL` link [digilogiclabs.com](https://digilogiclabs.com); the
   README license section explains Apache-2.0 in plain words (free for any use, including commercial; keep
   LICENSE/NOTICE).
+- Community files: `CODE_OF_CONDUCT.md` (Contributor Covenant 2.1), `SECURITY.md` (private reporting), issue-template
+  `config.yml`, and fork → build → test → pull request steps in `CONTRIBUTING.md`.
