@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "DLL Multiplayer",
+	"Description": "Co-op and online session layer for Unreal Engine: host/find/join/leave, LAN and online platforms, couch split-screen seats that travel online as one party, party-aware quick match, and level travel that never strands clients.",
+	"Category": "Digi Logic Labs",
+	"CreatedBy": "Digi Logic Labs LLC",
+	"CreatedByURL": "https://digilogiclabs.com",
+	"DocsURL": "https://github.com/DigiLogicLabs/dll-multiplayer#readme",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/DigiLogicLabs/dll-multiplayer/issues",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DLLMultiplayerRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		}
+	]
+}
