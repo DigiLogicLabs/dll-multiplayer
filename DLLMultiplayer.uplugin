@@ -12,6 +12,7 @@
 	"SupportURL": "https://github.com/DigiLogicLabs/dll-multiplayer/issues",
 	"EngineVersion": "5.7.0",
 	"CanContainContent": false,
+	"EnabledByDefault": false,
 	"IsBetaVersion": true,
 	"IsExperimentalVersion": false,
 	"Installed": false,

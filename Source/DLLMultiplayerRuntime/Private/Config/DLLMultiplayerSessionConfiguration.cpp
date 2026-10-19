@@ -127,7 +127,7 @@ void UDLLMultiplayerSessionConfiguration::PostEditChangeProperty(FPropertyChange
 	FString Error;
 	if (!ValidateConfiguration(Error))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("MLSessionConfiguration '%s' validation warning: %s"), *GetName(), *Error);
+		UE_LOG(LogTemp, Warning, TEXT("DLLMultiplayerSessionConfiguration '%s' validation warning: %s"), *GetName(), *Error);
 	}
 }
 #endif

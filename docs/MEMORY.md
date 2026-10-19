@@ -54,3 +54,5 @@ bottom. Mark unverified items **UNVERIFIED**. Promote anything that becomes a ru
   while you need it.
 - 2026-10-19 — `EDLLMultiplayerSessionType` values (CampaignCoop, Horde…) are serialized in data assets; never
   reorder them.
+- 2026-10-19 — The primary asset type string stays `MLSessionConfiguration` (protocol, see DECISIONS); only the
+  log text names the class. The descriptor has `"EnabledByDefault": false` like every dll-* plugin.
